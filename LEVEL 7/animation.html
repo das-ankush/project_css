@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head{
+           
+            height: 20px; 
+            background-color: aquamarine;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #pic{
+            height: 70px; height: 90px;
+            border: 2px solid black;
+        
+            position: relative;    
+            animation-name: tasty;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: 10;
+            animation-direction: alternate;
+        }
+
+        @keyframes tasty{
+            from{left:10px}
+            to{left: 800px;}
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="head">ANIMATION</h1><br>
+    <div id="con">
+    <img id="pic" src="my.jpg" alt="MEEEEEEEEEEEEEEEEEE">
+    </div>
+</body>
+</html>

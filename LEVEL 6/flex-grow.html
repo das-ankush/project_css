@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        
+        #head{text-align: center;
+        margin: 5px;}
+
+        #cont{
+            height: 600px; width: 600px;
+            background-color: blanchedalmond;
+            border: 2px red dotted;
+            margin: 5px; padding: 5px;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .box{
+            height: 200px; width: 200px;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        
+        /*FLEX-GROW property allows a flex-item to grow corresponding to other flex items if there is insufficient space*/
+        /*More the number,more it grow: If a container is important set it to 1*/
+
+        #b1{background-color: aqua;}
+        #b2{background-color: aquamarine; flex-grow: 1;}
+        #b3{background-color: blueviolet;}
+        #b4{background-color: blue;}
+    </style>
+</head>
+<body>
+    <h1 id="head">FLEX CONTAINER</h1> 
+    <div id="cont">
+        <div id="b1" class="box">BOX 1</div>
+         <div id="b2" class="box">BOX 2</div>
+         <div id="b3" class="box">BOX 3</div>
+         <div id="b4" class="box">BOX 4</div>
+    </div>
+</body>
+</html>

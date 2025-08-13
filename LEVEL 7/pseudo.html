@@ -1,0 +1,38 @@
+<!--Used to define special states of HTML elements, common examples are :hover, :active, :first-child-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+
+        .btn{
+            background-color: blueviolet;
+            height: 40px; width: 80px ;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+
+        .btn:hover{
+            background-color: blanchedalmond;
+            height: 50px; width: 100px;
+            border: 2px solid red;
+            border-radius: 8px;
+        } 
+
+        .btn:active{
+            background-color: lawngreen;
+             height: 50px; width: 100px;
+            border: 2px solid red;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">CLICK ME</button>
+</body>
+</html>

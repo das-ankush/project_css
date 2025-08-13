@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 5px;
+}
+header{
+    background-color: darkgrey;
+    height: 30px;
+}
+nav a{
+    text-decoration: double;
+    text-decoration-color: darkblue;
+    margin-left:20px ;
+    padding: 5px;
+    
+}
+#cont{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: wavy;
+    background-color: green;
+    border:5px dashed black;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: cornsilk;
+    display: inline-block;
+    
+}
+#four{
+    position: fixed;
+    right: 10px;
+}
+#two{
+    z-index: 2;
+    position: absolute;
+    left: 10px;
+}
+footer{
+    text-decoration-color: darkred;
+    text-decoration-style: dotted;
+    position: fixed;
+    bottom: 1px;
+    background-color: blueviolet;
+}
